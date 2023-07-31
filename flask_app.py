@@ -37,4 +37,4 @@ def get_excess_deaths():
 
 if __name__ == '__main__':
     # 启动 Flask 应用
-    app.run()
+    app.run(host='0.0.0.0')
